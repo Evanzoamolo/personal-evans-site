@@ -6,154 +6,60 @@ body{
     font-weight: 400;
     background-image: url(images/mont.jpg);
 }
-.nam{
-    margin: 20px;
-}
-h1{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-}
-.container{
-    background-image: url(images/plain.jpg);
+.one{
+    height: 350px;
+    width: auto;
+    margin: 50px;
+    padding: 20px;
+} 
+.name{
+    text-align: center;
+    padding: 20px;
     margin: auto;
-    width: 1440px;
-}
-.box{
-    border: 2px solid blue;
-}
+} 
 .bty{
     background-color: blue;
     padding: 5px;
     color: white;
     border-radius: 20px;
-}
-.note{
-    text-underline-position: below brown;
-    text-decoration-color: violet;
-    padding: 50px;
-}
-hr{
-    color: black;
-    border: blue 5px;
-}
-.bt{
-    margin-top: 10px;
-    background-color: hsl(224, 93%, 58%);
-    padding: 10px;
-}
-.one,.two,.last-container,.ed,.about,.side-left,.side-righ,.main-container,.row,.moment{
-    display: flex;
+    text-decoration: none;
 }
 .people-one{
     width: 300px;
-    height: 300px;
-    margin: 20px;
+    height: 350px;
+    margin: auto;
     padding: 30px;
     border-radius: 40px;
-}
-/*.chapter-one{
-    width: 400px;
-    margin-top: 50px;
-    height: 250px;
-    
-}*/
-.chapter-one{
-    text-align: center;
-    margin: 50px;
-    width: 400px;
-    height: 300px;
-    padding: 40px;
-}
-.people-two{
-    width: 500px;
-    height: 400px;
-}
-.two{
-    padding-top: 20px;
-}
-.one{
-    height: 400px;
-}
-.small{
-    width: 300px;
-    height: 300px;
-    padding: 20px;
-    border: 4px solid white;
-    background-color: white;
-    box-shadow: whitesmoke;
-    margin: 50px;
-    
-}
-.pict{
-    border-radius: 20px;
-    height: 30px;
-}
-.glass{
-    width: 600px;
-}
-.my-input{
-    width: 300px;
-    margin-top: 30px;
-}
-.mail{
-    margin-left: 200px;
-}
-.ed{
-    background-color: hsl(238, 22%, 44%);
-    color: white;
-    padding: 20px;
-}
-.abt,.cont,.facebk{
-    margin: 70px;
-    padding: 20px;
-}
-.phone{
-    padding: 10px;
-}
-.note,.two,.one{
-    padding: 20px;
-}
-.last-container{
-    background-color: hsl(243, 87%, 12%);
-    color: white;
-    padding: 50px;
-}
-.mg{
-    color: white;
-    height: 100px;
-    width: 280px;
-}
-.side-left,.side-right{
-    height: auto;
-    width: 300px;
-    margin: 10px;
-}
-.logo-one{
-    height: 100px;
-    width: 280px;
 
-}
-.my-row{
-    border: 4px solid red;
-    align-content: space-around;
 }
 .my-col{
     border: solid 2px black;
     height: 100px;
     border-radius: 40px;
-    margin: 50px;
+    margin: 20px;
     padding: 10px;
-    padding-left: 100px;
-    width: 500px;
-    align-content: stretch;
+    width: 140px;
+}
+.by{
+    margin-top: 30px;   
+}
+.gt{
+    margin: 20px;
+    margin-top: 220px;
+    align-content: center;
+}
+.myst{
+    padding: 8px;
+    border-radius: 20px;
+    margin: auto;
 }
 .myt{
     border-radius: 40px;
-    width: 200px;
-    text-align: justify;
-    padding: 10px;
+    width: auto;
+    text-align: center;
+    padding: 3px;
     background-color: darkblue;
-    font-size: large;
+    font-size: 1em;
     margin: 15px;
 }
 .my-cl{
@@ -161,44 +67,76 @@ hr{
     border-radius: 20px;
     margin: 20px;
     padding: 10px;
-    width: 400px;
-    align-content: space-around;
+    width: 300px;
+    align-content: center;
+}
+.one,.two,.mine{
     background-image: url(images/plain.jpg);
 }
-.row{
-    align-items: center;
+.one,.two,.last-container,.ed,.about,.side-left,.side-righ,.main-container,.by,.moment{
+    display: flex;
 }
-.myst{
-    padding: 8px;
-    border-radius: 20px;
-    margin: auto;
-    margin-left: 30px;
+.note{
+    text-underline-position: below brown;
+    text-decoration-color: violet;
+    padding: 50px;
 }
-.awards-education{
-    height: 400px;
-    width: 600px;
+.small{
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 4px solid white;
+    background-color: white;
+    box-shadow: whitesmoke;
     margin: 50px;
 }
-footer{
-    align-items: center;
+.pict{
+    border-radius: 40px;
+    height: 30px;
 }
-.me{
-    padding: 40px;
-    margin: 20px;
+.ed{
+    background-color: hsl(238, 22%, 44%);
     color: white;
-    background-color: darkcyan;
-    border-radius: 20px;
+    padding: 20px;
 }
+.glass{
+    width: auto;
+}
+.my-input{
+    width: auto;
+    margin: auto;
+}
+.mail{
+    margin: auto;
+}
+.bt{
+    margin-top: 10px;
+    background-color: hsl(224, 93%, 58%);
+    padding: 10px;
+}
+.dx{
+    margin: auto;
+    padding: 50px;
+    align-content: center;
+}
+.last-container{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 50px;
+}
+.phone,.abt,.facebk,.cont{
+    margin: auto;
+    padding: 30px;
 
 
-
-
-
-
-
-@media (min-width: 375px){
-   .main-container.footer{
-    display: block;
-    background-color: indigo;
-   }
+}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+.box{
+    border: 2px solid blue;
+}
+.copy{
+    text-align: center;
 }
